@@ -1,0 +1,501 @@
+id,category,level,text,answer1,answer2,answer3,answer4,answer5,correctAnswerIndex,hint
+bio-l1-001,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-002,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-003,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-004,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-005,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-006,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-007,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-008,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-009,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-010,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-011,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-012,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-013,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-014,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-015,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-016,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-017,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-018,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-019,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-020,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-021,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-022,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-023,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-024,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-025,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-026,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-027,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-028,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-029,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-030,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-031,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-032,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-033,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-034,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-035,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-036,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-037,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-038,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-039,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-040,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-041,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-042,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-043,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-044,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-045,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-046,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-047,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-048,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-049,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-050,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-051,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-052,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-053,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-054,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-055,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-056,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-057,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-058,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-059,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-060,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-061,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-062,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-063,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-064,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-065,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-066,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-067,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-068,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-069,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-070,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-071,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-072,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-073,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-074,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-075,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-076,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-077,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-078,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-079,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-080,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-081,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-082,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-083,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-084,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-085,Biology,1,How many eyes does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-086,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-087,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-088,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-089,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-090,Biology,1,How many hands does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-091,Biology,1,How many feet does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-092,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-093,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-094,Biology,1,How many lungs does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-095,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-096,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-097,Biology,1,How many kidneys does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-098,Biology,1,How many ears does an adult human typically have?,1,2,3,4,206,1,Consider human anatomy
+bio-l1-099,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l1-100,Biology,1,How many bones does an adult human typically have?,1,2,3,4,206,4,Consider human anatomy
+bio-l2-001,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-002,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-003,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-004,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-005,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-006,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-007,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-008,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-009,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-010,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-011,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-012,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-013,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-014,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-015,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-016,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-017,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-018,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-019,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-020,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-021,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-022,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-023,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-024,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-025,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-026,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-027,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-028,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-029,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-030,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-031,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-032,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-033,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-034,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-035,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-036,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-037,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-038,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-039,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-040,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-041,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-042,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-043,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-044,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-045,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-046,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-047,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-048,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-049,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-050,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-051,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-052,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-053,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-054,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-055,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-056,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-057,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-058,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-059,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-060,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-061,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-062,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-063,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-064,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-065,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-066,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-067,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-068,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-069,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-070,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-071,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-072,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-073,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-074,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-075,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-076,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-077,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-078,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-079,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-080,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-081,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-082,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-083,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-084,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-085,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-086,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-087,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-088,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-089,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-090,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-091,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-092,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-093,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-094,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-095,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l2-096,Biology,2,Which enzyme primarily breaks down starch?,amylase,protease,lipase,lactase,maltase,0,Enzyme names often match their substrate
+bio-l2-097,Biology,2,Which enzyme primarily breaks down protein?,amylase,protease,lipase,lactase,maltase,1,Enzyme names often match their substrate
+bio-l2-098,Biology,2,Which enzyme primarily breaks down fat?,amylase,protease,lipase,lactase,maltase,2,Enzyme names often match their substrate
+bio-l2-099,Biology,2,Which enzyme primarily breaks down lactose?,amylase,protease,lipase,lactase,maltase,3,Enzyme names often match their substrate
+bio-l2-100,Biology,2,Which enzyme primarily breaks down maltose?,amylase,protease,lipase,lactase,maltase,4,Enzyme names often match their substrate
+bio-l3-001,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-002,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-003,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-004,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-005,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-006,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-007,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-008,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-009,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-010,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-011,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-012,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-013,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-014,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-015,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-016,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-017,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-018,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-019,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-020,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-021,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-022,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-023,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-024,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-025,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-026,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-027,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-028,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-029,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-030,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-031,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-032,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-033,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-034,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-035,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-036,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-037,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-038,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-039,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-040,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-041,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-042,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-043,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-044,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-045,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-046,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-047,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-048,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-049,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-050,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-051,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-052,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-053,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-054,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-055,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-056,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-057,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-058,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-059,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-060,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-061,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-062,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-063,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-064,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-065,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-066,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-067,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-068,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-069,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-070,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-071,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-072,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-073,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-074,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-075,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-076,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-077,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-078,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-079,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-080,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-081,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-082,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-083,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-084,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-085,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-086,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-087,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-088,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-089,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-090,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-091,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-092,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-093,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-094,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-095,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-096,Biology,3,What is the primary product of glycolysis?,ATP,glucose,pyruvate,oxygen,water,2,Think about the pathway's main output
+bio-l3-097,Biology,3,What is the primary product of photosynthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l3-098,Biology,3,What is the primary product of respiration?,ATP,glucose,pyruvate,oxygen,water,0,Think about the pathway's main output
+bio-l3-099,Biology,3,What is the primary product of fermentation?,ATP,glucose,pyruvate,oxygen,water,3,Think about the pathway's main output
+bio-l3-100,Biology,3,What is the primary product of protein synthesis?,ATP,glucose,pyruvate,oxygen,water,1,Think about the pathway's main output
+bio-l4-001,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-002,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-003,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-004,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-005,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-006,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-007,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-008,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-009,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-010,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-011,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-012,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-013,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-014,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-015,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-016,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-017,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-018,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-019,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-020,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-021,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-022,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-023,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-024,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-025,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-026,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-027,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-028,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-029,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-030,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-031,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-032,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-033,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-034,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-035,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-036,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-037,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-038,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-039,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-040,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-041,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-042,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-043,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-044,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-045,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-046,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-047,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-048,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-049,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-050,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-051,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-052,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-053,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-054,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-055,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-056,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-057,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-058,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-059,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-060,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-061,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-062,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-063,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-064,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-065,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-066,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-067,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-068,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-069,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-070,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-071,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-072,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-073,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-074,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-075,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-076,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-077,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-078,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-079,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-080,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-081,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-082,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-083,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-084,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-085,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-086,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-087,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-088,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-089,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-090,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-091,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-092,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-093,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-094,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-095,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l4-096,Biology,4,Which enzyme/complex is primarily responsible for DNA replication?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,0,Match the process with its enzyme
+bio-l4-097,Biology,4,Which enzyme/complex is primarily responsible for transcription?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,1,Match the process with its enzyme
+bio-l4-098,Biology,4,Which enzyme/complex is primarily responsible for translation?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,2,Match the process with its enzyme
+bio-l4-099,Biology,4,Which enzyme/complex is primarily responsible for DNA repair?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,3,Match the process with its enzyme
+bio-l4-100,Biology,4,Which enzyme/complex is primarily responsible for recombination?,DNA polymerase,RNA polymerase,ribosome,ligase,recombinase,4,Match the process with its enzyme
+bio-l5-001,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-002,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-003,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-004,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-005,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-006,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-007,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-008,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-009,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-010,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-011,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-012,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-013,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-014,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-015,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-016,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-017,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-018,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-019,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-020,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-021,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-022,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-023,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-024,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-025,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-026,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-027,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-028,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-029,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-030,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-031,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-032,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-033,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-034,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-035,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-036,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-037,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-038,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-039,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-040,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-041,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-042,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-043,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-044,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-045,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-046,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-047,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-048,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-049,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-050,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-051,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-052,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-053,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-054,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-055,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-056,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-057,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-058,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-059,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-060,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-061,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-062,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-063,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-064,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-065,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-066,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-067,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-068,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-069,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-070,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-071,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-072,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-073,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-074,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-075,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-076,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-077,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-078,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-079,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-080,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-081,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-082,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-083,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-084,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-085,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-086,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-087,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-088,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-089,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-090,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-091,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-092,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-093,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-094,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-095,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
+bio-l5-096,Biology,5,What is the primary application of CRISPR?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,0,Modern molecular biology technique
+bio-l5-097,Biology,5,What is the primary application of epigenetics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,1,Modern molecular biology technique
+bio-l5-098,Biology,5,What is the primary application of proteomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,2,Modern molecular biology technique
+bio-l5-099,Biology,5,What is the primary application of genomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,3,Modern molecular biology technique
+bio-l5-100,Biology,5,What is the primary application of transcriptomics?,gene editing,gene regulation study,protein analysis,genome sequencing,RNA expression analysis,4,Modern molecular biology technique
