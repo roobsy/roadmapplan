@@ -115,13 +115,27 @@ export const ImportExport: React.FC = () => {
         const result = await ImportExportService.importFull(content, file.name, onProgress);
 
         if (result.success && result.questions.length > 0) {
-          // Create backup log
+          // Create backup CSV and download it automatically
+          const backupTimestamp = Date.now();
+          const backupFileName = `backup-before-full-import-${backupTimestamp}.csv`;
+
+          // Export backup as CSV using the export service
+          const { csv: backupCSV } = ImportExportService.exportQuestions(
+            result.backup,
+            undefined,
+            true
+          );
+
+          // Trigger automatic download of backup
+          ImportExportService.downloadCSV(backupCSV, backupFileName);
+
+          // Create backup log entry
           const backupLog = {
-            id: `backup-${Date.now()}`,
+            id: `backup-${backupTimestamp}`,
             actionType: 'export' as const,
             exportType: 'all' as const,
             timestamp: new Date(),
-            fileName: `backup-before-full-import-${Date.now()}.json`,
+            fileName: backupFileName,
             stats: {
               totalRows: result.backup.length,
               successRows: result.backup.length,
@@ -130,8 +144,8 @@ export const ImportExport: React.FC = () => {
           };
           addImportExportLog(backupLog);
 
-          // Save backup to localStorage
-          localStorage.setItem(backupLog.fileName, JSON.stringify(result.backup));
+          // Show user where backup was saved
+          console.log(`✅ Backup saved: ${backupFileName} (downloaded to your Downloads folder)`);
 
           // Replace all questions
           updateQuestionBank(result.questions);
