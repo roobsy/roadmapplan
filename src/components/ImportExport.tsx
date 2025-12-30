@@ -22,6 +22,7 @@ export const ImportExport: React.FC = () => {
   const [importResult, setImportResult] = useState<ImportResult | null>(null);
   const [showImportResult, setShowImportResult] = useState(false);
   const [importing, setImporting] = useState(false);
+  const [importProgress, setImportProgress] = useState({ processed: 0, total: 0 });
 
   // Export handlers
   const handleExportAll = () => {
@@ -82,15 +83,23 @@ export const ImportExport: React.FC = () => {
     const importType = e.target.dataset.importType as 'incremental' | 'full';
     setImporting(true);
     setShowImportResult(false);
+    setImportProgress({ processed: 0, total: 0 });
 
     try {
       const content = await ImportExportService.readFileAsText(file);
+
+      // Progress callback
+      const onProgress = (processed: number, total: number) => {
+        setImportProgress({ processed, total });
+      };
 
       if (importType === 'incremental') {
         const result = await ImportExportService.importIncremental(
           content,
           state.questionBank,
-          state.config.fuzzyMatchSensitivity
+          state.config.fuzzyMatchSensitivity,
+          file.name,
+          onProgress
         );
 
         if (result.success && result.questions.length > 0) {
@@ -102,7 +111,7 @@ export const ImportExport: React.FC = () => {
         setShowImportResult(true);
       } else {
         // Full import
-        const result = await ImportExportService.importFull(content);
+        const result = await ImportExportService.importFull(content, file.name, onProgress);
 
         if (result.success && result.questions.length > 0) {
           // Create backup log
@@ -333,6 +342,19 @@ export const ImportExport: React.FC = () => {
       {importing && (
         <div className="import-progress">
           <p>Importing questions...</p>
+          {importProgress.total > 0 && (
+            <>
+              <div className="progress-bar">
+                <div
+                  className="progress-fill"
+                  style={{ width: `${(importProgress.processed / importProgress.total) * 100}%` }}
+                />
+              </div>
+              <p className="progress-text">
+                {importProgress.processed} / {importProgress.total} rows processed
+              </p>
+            </>
+          )}
         </div>
       )}
     </div>

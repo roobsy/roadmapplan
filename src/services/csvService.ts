@@ -221,6 +221,153 @@ export class CSVService {
   }
 
   /**
+   * Parses CSV content asynchronously in chunks to prevent browser freezing
+   * @param csvContent The CSV content to parse
+   * @param chunkSize Number of rows to process per chunk (default: 100)
+   * @param onProgress Optional callback for progress updates
+   */
+  static async parseCSVAsync(
+    csvContent: string,
+    chunkSize: number = 100,
+    onProgress?: (processed: number, total: number) => void
+  ): Promise<{ questions: Question[]; errors: string[] }> {
+    const questions: Question[] = [];
+    const errors: string[] = [];
+
+    // Handle different line endings (Windows \r\n, Unix \n, old Mac \r)
+    const lines = csvContent.split(/\r?\n/).filter(line => line.trim());
+    if (lines.length < 2) {
+      errors.push('CSV file is empty or missing data');
+      return { questions, errors };
+    }
+
+    const headers = this.parseCSVLine(lines[0]);
+    const requiredHeaders = [
+      'id',
+      'category',
+      'level',
+      'text',
+      'answer1',
+      'answer2',
+      'answer3',
+      'answer4',
+      'answer5',
+      'correctAnswerIndex',
+      'hint',
+    ];
+
+    // Debug logging
+    console.log('CSV Parser Debug (Async):');
+    console.log('- Total lines:', lines.length);
+    console.log('- Processing in chunks of:', chunkSize);
+
+    // Validate headers
+    const missingHeaders: string[] = [];
+    for (const required of requiredHeaders) {
+      if (!headers.includes(required)) {
+        missingHeaders.push(required);
+      }
+    }
+
+    if (missingHeaders.length > 0) {
+      errors.push(
+        `Missing required columns: ${missingHeaders.join(', ')}. ` +
+        `Detected headers: [${headers.join(', ')}]`
+      );
+      return { questions, errors };
+    }
+
+    const hasStats = headers.includes('timesUsed');
+    const totalRows = lines.length - 1;
+
+    // Process rows in chunks
+    for (let startIdx = 1; startIdx < lines.length; startIdx += chunkSize) {
+      const endIdx = Math.min(startIdx + chunkSize, lines.length);
+
+      // Process this chunk
+      for (let i = startIdx; i < endIdx; i++) {
+        try {
+          const values = this.parseCSVLine(lines[i]);
+          if (values.length === 0 || values.every(v => !v.trim())) continue;
+
+          const getVal = (key: string) => {
+            const index = headers.indexOf(key);
+            return index >= 0 ? values[index] : '';
+          };
+
+          const id = getVal('id');
+          const category = getVal('category');
+          const level = parseInt(getVal('level'));
+          const text = getVal('text');
+          const answers = [
+            getVal('answer1'),
+            getVal('answer2'),
+            getVal('answer3'),
+            getVal('answer4'),
+            getVal('answer5'),
+          ];
+          const correctAnswerIndex = parseInt(getVal('correctAnswerIndex'));
+          const hint = getVal('hint');
+
+          // Validation
+          if (!id || !category || !text) {
+            errors.push(`Row ${i + 1}: Missing required fields (id, category, or text)`);
+            continue;
+          }
+
+          if (isNaN(level) || level < 1 || level > 5) {
+            errors.push(`Row ${i + 1}: Invalid level (must be 1-5)`);
+            continue;
+          }
+
+          if (isNaN(correctAnswerIndex) || correctAnswerIndex < 0 || correctAnswerIndex > 4) {
+            errors.push(`Row ${i + 1}: Invalid correctAnswerIndex (must be 0-4)`);
+            continue;
+          }
+
+          if (answers.some(a => !a.trim())) {
+            errors.push(`Row ${i + 1}: All 5 answers must be provided`);
+            continue;
+          }
+
+          const question: Question = {
+            id,
+            category,
+            level,
+            text,
+            answers,
+            correctAnswerIndex,
+            hint: hint || '',
+            stats: {
+              timesUsed: hasStats ? parseInt(getVal('timesUsed')) || 0 : 0,
+              timesCorrect: hasStats ? parseInt(getVal('timesCorrect')) || 0 : 0,
+              timesWrong: hasStats ? parseInt(getVal('timesWrong')) || 0 : 0,
+              difficulty: hasStats ? parseFloat(getVal('difficulty')) || 0 : 0,
+            },
+          };
+
+          questions.push(question);
+        } catch (error) {
+          errors.push(`Row ${i + 1}: ${error instanceof Error ? error.message : 'Parse error'}`);
+        }
+      }
+
+      // Report progress
+      if (onProgress) {
+        onProgress(Math.min(endIdx - 1, totalRows), totalRows);
+      }
+
+      // Yield control back to browser to keep UI responsive
+      if (endIdx < lines.length) {
+        await new Promise(resolve => setTimeout(resolve, 0));
+      }
+    }
+
+    console.log('CSV parsing complete:', questions.length, 'questions parsed');
+    return { questions, errors };
+  }
+
+  /**
    * Parses a single CSV line, handling quoted fields
    */
   private static parseCSVLine(line: string): string[] {

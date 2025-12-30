@@ -78,9 +78,11 @@ export class ImportExportService {
   static async importIncremental(
     csvContent: string,
     existingQuestions: Question[],
-    sensitivity: number
+    sensitivity: number,
+    fileName?: string,
+    onProgress?: (processed: number, total: number) => void
   ): Promise<ImportResult & { log: ImportExportLog }> {
-    const { questions: parsedQuestions, errors } = CSVService.parseCSV(csvContent);
+    const { questions: parsedQuestions, errors } = await CSVService.parseCSVAsync(csvContent, 100, onProgress);
 
     if (parsedQuestions.length === 0) {
       const result: ImportResult = {
@@ -100,7 +102,7 @@ export class ImportExportService {
         actionType: 'import',
         importType: 'incremental',
         timestamp: new Date(),
-        fileName: 'uploaded-file.csv',
+        fileName: fileName || 'uploaded-file.csv',
         stats: result.stats,
         errors,
       };
@@ -140,7 +142,7 @@ export class ImportExportService {
       actionType: 'import',
       importType: 'incremental',
       timestamp: new Date(),
-      fileName: 'uploaded-file.csv',
+      fileName: fileName || 'uploaded-file.csv',
       stats: result.stats,
       errors: errors.length > 0 ? errors.slice(0, 10) : undefined, // Store first 10 errors
     };
@@ -151,11 +153,15 @@ export class ImportExportService {
   /**
    * Imports questions with full replacement (after backup)
    */
-  static async importFull(csvContent: string): Promise<ImportResult & { log: ImportExportLog; backup: Question[] }> {
+  static async importFull(
+    csvContent: string,
+    fileName?: string,
+    onProgress?: (processed: number, total: number) => void
+  ): Promise<ImportResult & { log: ImportExportLog; backup: Question[] }> {
     // Get current questions for backup
     const backup = StorageService.getQuestionBank();
 
-    const { questions: parsedQuestions, errors } = CSVService.parseCSV(csvContent);
+    const { questions: parsedQuestions, errors } = await CSVService.parseCSVAsync(csvContent, 100, onProgress);
 
     const totalRows = parsedQuestions.length + (errors.length > 0 ? 1 : 0);
     const errorRows = errors.length;
@@ -178,7 +184,7 @@ export class ImportExportService {
       actionType: 'import',
       importType: 'full',
       timestamp: new Date(),
-      fileName: 'uploaded-file.csv',
+      fileName: fileName || 'uploaded-file.csv',
       stats: result.stats,
       errors: errors.length > 0 ? errors.slice(0, 10) : undefined,
     };
