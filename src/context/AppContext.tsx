@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
-import type { AppState, QuizConfig, QuizSession, QuizResult } from '../types';
+import type { AppState, QuizConfig, QuizSession, QuizResult, Question, ImportExportLog } from '../types';
 import { StorageService } from '../services/storage';
 import { QuestionSelector } from '../services/questionSelector';
 import { initialQuestions, defaultCategories } from '../data/initialQuestions';
@@ -22,6 +22,9 @@ interface AppContextType {
     recentCorrect: number;
     recentWrong: number;
   };
+  addImportExportLog: (log: ImportExportLog) => void;
+  updateQuestionBank: (questions: Question[]) => void;
+  addQuestions: (questions: Question[]) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -42,6 +45,8 @@ const getDefaultConfig = (): QuizConfig => ({
     leastUsedWeight: 0.2,
   },
   statsRoundsToShow: 10,
+  importExportLogs: [],
+  fuzzyMatchSensitivity: 0.7, // Recommended default
 });
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -259,6 +264,30 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     return QuestionSelector.getQuestionBankStats(state.questionBank, state.config.statsRoundsToShow);
   };
 
+  const addImportExportLog = (log: ImportExportLog) => {
+    setState(prev => ({
+      ...prev,
+      config: {
+        ...prev.config,
+        importExportLogs: [log, ...prev.config.importExportLogs],
+      },
+    }));
+  };
+
+  const updateQuestionBank = (questions: Question[]) => {
+    setState(prev => ({
+      ...prev,
+      questionBank: questions,
+    }));
+  };
+
+  const addQuestions = (questions: Question[]) => {
+    setState(prev => ({
+      ...prev,
+      questionBank: [...prev.questionBank, ...questions],
+    }));
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -272,6 +301,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         submitQuiz,
         retakeQuiz,
         getQuestionBankStats,
+        addImportExportLog,
+        updateQuestionBank,
+        addQuestions,
       }}
     >
       {children}

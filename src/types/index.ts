@@ -39,6 +39,8 @@ export interface QuizConfig {
     leastUsedWeight: number;
   };
   statsRoundsToShow: number; // How many recent rounds to show in stats
+  importExportLogs: ImportExportLog[];
+  fuzzyMatchSensitivity: number; // 0-1, where 1 is exact match, 0.7 is recommended default
 }
 
 export interface QuizSession {
@@ -93,3 +95,45 @@ export interface AppState {
 }
 
 export type QuestionSelectionStrategy = 'neverUsed' | 'wronglyAnswered' | 'leastUsed' | 'random';
+
+// Import/Export Types
+export type QuestionStatus = 'all' | 'neverUsed' | 'used' | 'wronglyAnswered' | 'correctlyAnswered';
+
+export interface ExportFilters {
+  status: QuestionStatus;
+  levels: number[]; // Empty array means all levels
+}
+
+export interface ImportExportLog {
+  id: string;
+  actionType: 'export' | 'import';
+  importType?: 'incremental' | 'full';
+  exportType?: 'all' | 'filtered' | 'template';
+  timestamp: Date;
+  fileName: string;
+  stats: {
+    totalRows: number;
+    successRows: number;
+    errorRows: number;
+    duplicateRows?: number;
+  };
+  filters?: ExportFilters;
+  errors?: string[];
+}
+
+export interface ImportResult {
+  success: boolean;
+  stats: {
+    totalRows: number;
+    successRows: number;
+    errorRows: number;
+    duplicateRows: number;
+  };
+  errors: string[];
+  questions: Question[];
+}
+
+export interface QuizConfigExtended extends QuizConfig {
+  importExportLogs: ImportExportLog[];
+  fuzzyMatchSensitivity: number; // 0-1, where 1 is exact match, 0.7 is recommended default
+}

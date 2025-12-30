@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import type { QuizConfig } from '../types';
+import { ImportExport } from './ImportExport';
+import { ImportExportLogComponent } from './ImportExportLog';
 import './Config.css';
 
 export const Config: React.FC = () => {
@@ -142,22 +144,33 @@ export const Config: React.FC = () => {
         </div>
       </section>
 
-      {/* AI Research Settings */}
+      {/* Import/Export & AI Research Settings */}
       <section className="config-section">
-        <h3>5. AI Research Settings (Future Feature)</h3>
-        <label className="config-checkbox">
-          <input
-            type="checkbox"
-            checked={config.aiResearchEnabled}
-            onChange={e =>
-              setConfig({ ...config, aiResearchEnabled: e.target.checked })
-            }
-          />
-          <span>Enable AI-powered question generation</span>
-        </label>
-        <p className="feature-note">
-          This feature will allow the app to research and generate new questions automatically.
-        </p>
+        <h3>5. Question Database Management & AI Research</h3>
+
+        {/* Import/Export Component */}
+        <ImportExport />
+
+        {/* AI Research Settings */}
+        <div style={{ marginTop: '30px' }}>
+          <h4 style={{ marginBottom: '15px' }}>AI Research Settings (Future Feature)</h4>
+          <label className="config-checkbox">
+            <input
+              type="checkbox"
+              checked={config.aiResearchEnabled}
+              onChange={e =>
+                setConfig({ ...config, aiResearchEnabled: e.target.checked })
+              }
+            />
+            <span>Enable AI-powered question generation</span>
+          </label>
+          <p className="feature-note">
+            This feature will allow the app to research and generate new questions automatically.
+          </p>
+        </div>
+
+        {/* Import/Export Log */}
+        <ImportExportLogComponent logs={config.importExportLogs} />
       </section>
 
       {/* Scoring Weights */}
