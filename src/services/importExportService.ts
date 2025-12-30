@@ -1,6 +1,6 @@
 import type { Question, ExportFilters, ImportResult, ImportExportLog } from '../types';
 import { CSVService } from './csvService';
-import { FuzzyMatcher } from './fuzzyMatch';
+import { AsyncDeduplicator } from './asyncDeduplicator';
 import { StorageService } from './storage';
 
 export class ImportExportService {
@@ -110,43 +110,40 @@ export class ImportExportService {
       return { ...result, log };
     }
 
-    // Find duplicates against existing questions
-    const duplicatesVsExisting = FuzzyMatcher.findDuplicates(
+    // Find duplicates using efficient async algorithm
+    console.log('Starting deduplication process...');
+
+    // Step 1: Find duplicates against existing questions (async)
+    const duplicatesVsExisting = await AsyncDeduplicator.findDuplicatesAsync(
       parsedQuestions,
       existingQuestions,
-      sensitivity
-    );
-
-    // Also check for duplicates WITHIN the import batch itself
-    const duplicatesWithinBatch = new Map<string, Question[]>();
-    for (let i = 0; i < parsedQuestions.length; i++) {
-      const currentQ = parsedQuestions[i];
-
-      // Skip if already marked as duplicate
-      if (duplicatesVsExisting.has(currentQ.id)) continue;
-
-      // Check against previous questions in the batch
-      for (let j = 0; j < i; j++) {
-        const prevQ = parsedQuestions[j];
-
-        // Skip if the previous question was already marked as duplicate
-        if (duplicatesVsExisting.has(prevQ.id) || duplicatesWithinBatch.has(prevQ.id)) {
-          continue;
-        }
-
-        if (FuzzyMatcher.isDuplicate(currentQ, prevQ, sensitivity)) {
-          // Mark current question as duplicate of earlier one
-          if (!duplicatesWithinBatch.has(currentQ.id)) {
-            duplicatesWithinBatch.set(currentQ.id, []);
-          }
-          duplicatesWithinBatch.get(currentQ.id)!.push(prevQ);
-          break; // Found a duplicate, no need to check further
+      sensitivity,
+      (processed, total) => {
+        if (onProgress) {
+          // Report as additional progress after CSV parsing
+          const baseProgress = parsedQuestions.length;
+          onProgress(baseProgress + processed, baseProgress + total);
         }
       }
-    }
+    );
+
+    // Step 2: Find duplicates within the import batch itself (async)
+    const duplicatesWithinBatch = await AsyncDeduplicator.findInternalDuplicatesAsync(
+      parsedQuestions,
+      sensitivity,
+      (processed, total) => {
+        if (onProgress) {
+          // Report internal dedup progress
+          const baseProgress = parsedQuestions.length + parsedQuestions.length;
+          onProgress(baseProgress + processed, baseProgress + total);
+        }
+      }
+    );
 
     // Combine both duplicate sets
     const allDuplicates = new Map([...duplicatesVsExisting, ...duplicatesWithinBatch]);
+
+    console.log(`Deduplication complete: ${allDuplicates.size} duplicates found`);
 
     // Filter out all duplicates
     const uniqueQuestions = parsedQuestions.filter(q => !allDuplicates.has(q.id));
