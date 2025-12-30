@@ -110,18 +110,49 @@ export class ImportExportService {
       return { ...result, log };
     }
 
-    // Find duplicates
-    const duplicates = FuzzyMatcher.findDuplicates(
+    // Find duplicates against existing questions
+    const duplicatesVsExisting = FuzzyMatcher.findDuplicates(
       parsedQuestions,
       existingQuestions,
       sensitivity
     );
 
-    // Filter out duplicates
-    const uniqueQuestions = parsedQuestions.filter(q => !duplicates.has(q.id));
+    // Also check for duplicates WITHIN the import batch itself
+    const duplicatesWithinBatch = new Map<string, Question[]>();
+    for (let i = 0; i < parsedQuestions.length; i++) {
+      const currentQ = parsedQuestions[i];
+
+      // Skip if already marked as duplicate
+      if (duplicatesVsExisting.has(currentQ.id)) continue;
+
+      // Check against previous questions in the batch
+      for (let j = 0; j < i; j++) {
+        const prevQ = parsedQuestions[j];
+
+        // Skip if the previous question was already marked as duplicate
+        if (duplicatesVsExisting.has(prevQ.id) || duplicatesWithinBatch.has(prevQ.id)) {
+          continue;
+        }
+
+        if (FuzzyMatcher.isDuplicate(currentQ, prevQ, sensitivity)) {
+          // Mark current question as duplicate of earlier one
+          if (!duplicatesWithinBatch.has(currentQ.id)) {
+            duplicatesWithinBatch.set(currentQ.id, []);
+          }
+          duplicatesWithinBatch.get(currentQ.id)!.push(prevQ);
+          break; // Found a duplicate, no need to check further
+        }
+      }
+    }
+
+    // Combine both duplicate sets
+    const allDuplicates = new Map([...duplicatesVsExisting, ...duplicatesWithinBatch]);
+
+    // Filter out all duplicates
+    const uniqueQuestions = parsedQuestions.filter(q => !allDuplicates.has(q.id));
 
     const totalRows = parsedQuestions.length;
-    const duplicateRows = duplicates.size;
+    const duplicateRows = allDuplicates.size;
     const errorRows = errors.length;
     const successRows = uniqueQuestions.length;
 
