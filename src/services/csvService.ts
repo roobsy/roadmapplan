@@ -280,6 +280,11 @@ export class CSVService {
     const hasStats = headers.includes('timesUsed');
     const totalRows = lines.length - 1;
 
+    // Report initial progress to initialize UI
+    if (onProgress) {
+      onProgress(0, totalRows);
+    }
+
     // Process rows in chunks
     for (let startIdx = 1; startIdx < lines.length; startIdx += chunkSize) {
       const endIdx = Math.min(startIdx + chunkSize, lines.length);
@@ -353,8 +358,10 @@ export class CSVService {
       }
 
       // Report progress
+      const processed = Math.min(endIdx - 1, totalRows);
       if (onProgress) {
-        onProgress(Math.min(endIdx - 1, totalRows), totalRows);
+        console.log(`Progress: ${processed} / ${totalRows} rows (${((processed / totalRows) * 100).toFixed(1)}%)`);
+        onProgress(processed, totalRows);
       }
 
       // Yield control back to browser to keep UI responsive

@@ -90,6 +90,7 @@ export const ImportExport: React.FC = () => {
 
       // Progress callback
       const onProgress = (processed: number, total: number) => {
+        console.log(`UI Progress Update: ${processed} / ${total}`);
         setImportProgress({ processed, total });
       };
 
@@ -342,19 +343,23 @@ export const ImportExport: React.FC = () => {
       {importing && (
         <div className="import-progress">
           <p>Importing questions...</p>
-          {importProgress.total > 0 && (
-            <>
-              <div className="progress-bar">
-                <div
-                  className="progress-fill"
-                  style={{ width: `${(importProgress.processed / importProgress.total) * 100}%` }}
-                />
-              </div>
-              <p className="progress-text">
-                {importProgress.processed} / {importProgress.total} rows processed
-              </p>
-            </>
-          )}
+          {importProgress.total > 0 && (() => {
+            const percentage = (importProgress.processed / importProgress.total) * 100;
+            console.log(`Rendering progress bar: ${importProgress.processed}/${importProgress.total} = ${percentage.toFixed(1)}%`);
+            return (
+              <>
+                <div className="progress-bar">
+                  <div
+                    className="progress-fill"
+                    style={{ width: `${percentage}%` }}
+                  />
+                </div>
+                <p className="progress-text">
+                  {importProgress.processed} / {importProgress.total} rows processed ({percentage.toFixed(1)}%)
+                </p>
+              </>
+            );
+          })()}
         </div>
       )}
     </div>
