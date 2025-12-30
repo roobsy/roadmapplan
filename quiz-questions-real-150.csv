@@ -1,0 +1,151 @@
+id,category,level,text,answer1,answer2,answer3,answer4,answer5,correctAnswerIndex,hint
+bio-l1-0001,Biology,1,What is DNA?,Deoxyribonucleic Acid - genetic material,A type of protein,A cell organelle,A type of sugar,A mineral,0,This is a Biology question at difficulty level 1
+bio-l1-0002,Biology,1,What do plants need for photosynthesis?,Water only,"Sunlight, water, and carbon dioxide",Only carbon dioxide,Only sunlight,Soil nutrients,1,This is a Biology question at difficulty level 1
+bio-l1-0003,Biology,1,What is the largest organ in the human body?,Heart,Skin,Liver,Brain,Lungs,1,This is a Biology question at difficulty level 1
+bio-l1-0004,Biology,1,What are cells?,Basic units of life,Types of atoms,Minerals,Proteins,Vitamins,0,This is a Biology question at difficulty level 1
+bio-l1-0005,Biology,1,What do herbivores eat?,Meat,Plants,Both plants and meat,Only fruits,Only seeds,1,This is a Biology question at difficulty level 1
+bio-l1-0006,Biology,1,What is the function of red blood cells?,Digest food,Carry oxygen,Fight infection,Store energy,Build bones,1,This is a Biology question at difficulty level 1
+bio-l1-0007,Biology,1,How many legs does an insect have?,4,6,8,10,12,1,This is a Biology question at difficulty level 1
+bio-l1-0008,Biology,1,What is the process of a caterpillar becoming a butterfly called?,Evolution,Metamorphosis,Photosynthesis,Reproduction,Mitosis,1,This is a Biology question at difficulty level 1
+bio-l1-0009,Biology,1,What gas do humans breathe out?,Oxygen,Carbon dioxide,Nitrogen,Hydrogen,Helium,1,This is a Biology question at difficulty level 1
+bio-l1-0010,Biology,1,What is the basic unit of heredity?,Cell,Gene,Tissue,Organ,Chromosome,1,This is a Biology question at difficulty level 1
+bio-l2-0011,Biology,2,What is the process by which plants make food?,Respiration,Photosynthesis,Digestion,Fermentation,Transpiration,1,This is a Biology question at difficulty level 2
+bio-l2-0012,Biology,2,What is the powerhouse of the cell?,Nucleus,Mitochondria,Ribosome,Chloroplast,Vacuole,1,This is a Biology question at difficulty level 2
+bio-l2-0013,Biology,2,What type of blood vessel carries blood away from the heart?,Vein,Artery,Capillary,Lymph vessel,Aorta only,1,This is a Biology question at difficulty level 2
+bio-l2-0014,Biology,2,What is the scientific name for the human species?,Homo erectus,Homo sapiens,Homo habilis,Homo neanderthalensis,Primates sapiens,1,This is a Biology question at difficulty level 2
+bio-l2-0015,Biology,2,Which organ produces insulin?,Liver,Pancreas,Stomach,Kidney,Gallbladder,1,This is a Biology question at difficulty level 2
+bio-l2-0016,Biology,2,What is the pH of pure water?,5,7,9,0,14,1,This is a Biology question at difficulty level 2
+bio-l2-0017,Biology,2,What are organisms that break down dead matter called?,Producers,Decomposers,Consumers,Predators,Parasites,1,This is a Biology question at difficulty level 2
+bio-l2-0018,Biology,2,How many chambers does the human heart have?,2,4,3,5,6,1,This is a Biology question at difficulty level 2
+bio-l2-0019,Biology,2,What is the green pigment in plants called?,Carotene,Chlorophyll,Melanin,Xanthophyll,Anthocyanin,1,This is a Biology question at difficulty level 2
+bio-l2-0020,Biology,2,What is the study of plants called?,Zoology,Botany,Ecology,Mycology,Ornithology,1,This is a Biology question at difficulty level 2
+bio-l3-0021,Biology,3,What is the difference between mitosis and meiosis?,No difference,"Mitosis produces identical cells, meiosis produces sex cells",Meiosis is faster,Mitosis only happens in plants,Meiosis produces 4 identical cells,1,This is a Biology question at difficulty level 3
+bio-l3-0022,Biology,3,What is an ecosystem?,A single organism,A community of organisms and their environment,Only plants in an area,Only animals in an area,The weather in a region,1,This is a Biology question at difficulty level 3
+bio-l3-0023,Biology,3,What is the function of ribosomes?,DNA replication,Protein synthesis,Energy production,Lipid storage,Cell division,1,This is a Biology question at difficulty level 3
+bio-l3-0024,Biology,3,What is natural selection?,Random mutation,Survival and reproduction of the fittest,Artificial breeding,Genetic modification,Extinction,1,This is a Biology question at difficulty level 3
+bio-l3-0025,Biology,3,What are the building blocks of proteins?,Nucleotides,Amino acids,Fatty acids,Glucose molecules,Lipids,1,This is a Biology question at difficulty level 3
+bio-l3-0026,Biology,3,What is homeostasis?,Cell division,Maintaining stable internal conditions,Rapid growth,Energy production,Genetic mutation,1,This is a Biology question at difficulty level 3
+bio-l3-0027,Biology,3,What is the role of ATP in cells?,Genetic information,Energy currency,Structural support,Waste removal,Oxygen transport,1,This is a Biology question at difficulty level 3
+bio-l3-0028,Biology,3,What is the difference between prokaryotic and eukaryotic cells?,Size only,Prokaryotes lack a nucleus,Eukaryotes are smaller,No difference,Prokaryotes are only in animals,1,This is a Biology question at difficulty level 3
+bio-l3-0029,Biology,3,What is symbiosis?,Competition,Close relationship between different species,Predation,Parasitism only,Extinction,1,This is a Biology question at difficulty level 3
+bio-l3-0030,Biology,3,What is the nitrogen cycle?,How nitrogen moves through ecosystems,How plants make nitrogen,How animals breathe nitrogen,Nitrogen decay,Nitrogen photosynthesis,0,This is a Biology question at difficulty level 3
+bio-l4-0031,Biology,4,What is the Hardy-Weinberg principle?,A law of gravity,Genetic equilibrium in populations,Cell division stages,Protein folding,DNA replication,1,This is a Biology question at difficulty level 4
+bio-l4-0032,Biology,4,What is the endosymbiotic theory?,Cells eat each other,Mitochondria and chloroplasts originated from bacteria,All cells are the same,Viruses create cells,Cells spontaneously generate,1,This is a Biology question at difficulty level 4
+bio-l4-0033,Biology,4,What is gene expression regulation in eukaryotes primarily controlled by?,mRNA only,Transcription factors and chromatin structure,Ribosomes,tRNA,ATP levels,1,This is a Biology question at difficulty level 4
+bio-l4-0034,Biology,4,What is the role of telomeres?,Energy production,Protect chromosome ends from degradation,Protein synthesis,Cell signaling,Waste removal,1,This is a Biology question at difficulty level 4
+bio-l4-0035,Biology,4,What is alternative splicing?,DNA repair,One gene producing multiple proteins,Cell division,Photosynthesis variation,Respiration pathway,1,This is a Biology question at difficulty level 4
+bio-l4-0036,Biology,4,What is epigenetics?,DNA sequence changes,Heritable changes without DNA sequence alteration,Protein structure,Cell membrane composition,Energy metabolism,1,This is a Biology question at difficulty level 4
+bio-l4-0037,Biology,4,What is the Krebs cycle?,Photosynthesis stage,Cellular respiration stage producing ATP,DNA replication,Protein synthesis,Cell division,1,This is a Biology question at difficulty level 4
+bio-l4-0038,Biology,4,What are restriction enzymes used for?,Energy production,Cutting DNA at specific sequences,Protein synthesis,Cell division,Lipid metabolism,1,This is a Biology question at difficulty level 4
+bio-l4-0039,Biology,4,What is PCR (Polymerase Chain Reaction)?,Cell division method,DNA amplification technique,Protein purification,Cell culture,Microscopy technique,1,This is a Biology question at difficulty level 4
+bio-l4-0040,Biology,4,What is CRISPR-Cas9?,A cell type,Gene editing technology,A protein,A disease,A microscope,1,This is a Biology question at difficulty level 4
+bio-l5-0041,Biology,5,What is the wobble hypothesis in genetics?,DNA wobbles during replication,Third codon position can pair non-standardly,Proteins wobble in water,Cells wobble during division,Chromosomes wobble during meiosis,1,This is a Biology question at difficulty level 5
+bio-l5-0042,Biology,5,What is RNA interference (RNAi)?,RNA breaks down,Gene silencing mechanism using small RNAs,RNA transcription,RNA translation,RNA replication,1,This is a Biology question at difficulty level 5
+bio-l5-0043,Biology,5,What is the mechanism of action of competitive inhibition?,Enzyme is destroyed,Inhibitor competes with substrate for active site,Enzyme changes shape permanently,Substrate is destroyed,Product is inhibited,1,This is a Biology question at difficulty level 5
+bio-l5-0044,Biology,5,What is horizontal gene transfer?,Genes pass from parent to offspring,Genes transfer between organisms non-reproductively,Genes move within a chromosome,Genes duplicate,Genes mutate randomly,1,This is a Biology question at difficulty level 5
+bio-l5-0045,Biology,5,What is the chemiosmotic theory?,Chemical reactions in cells,ATP synthesis via proton gradient,DNA replication theory,Protein folding,Cell membrane theory,1,This is a Biology question at difficulty level 5
+bio-l5-0046,Biology,5,What is the signal recognition particle (SRP)?,DNA sequence,Protein targeting mechanism to ER,Cell signal,Hormone,Enzyme,1,This is a Biology question at difficulty level 5
+bio-l5-0047,Biology,5,"What is the difference between C3, C4, and CAM photosynthesis?",No difference,Different carbon fixation pathways,Different light requirements only,Different water needs only,Different chlorophyll types only,1,This is a Biology question at difficulty level 5
+bio-l5-0048,Biology,5,What is the role of ubiquitin in cells?,Energy production,Protein degradation tagging,DNA replication,Lipid synthesis,Carbohydrate metabolism,1,This is a Biology question at difficulty level 5
+bio-l5-0049,Biology,5,What is the lac operon?,A surgical procedure,Gene regulation system in bacteria,A cell type,A disease,A microscope part,1,This is a Biology question at difficulty level 5
+bio-l5-0050,Biology,5,What is transgenerational epigenetic inheritance?,DNA mutations passing on,Epigenetic changes transmitted across generations,Chromosomal deletions,Protein inheritance,RNA-based evolution,1,This is a Biology question at difficulty level 5
+geo-l1-0051,Geography,1,What is the largest ocean on Earth?,Atlantic,Pacific,Indian,Arctic,Southern,1,This is a Geography question at difficulty level 1
+geo-l1-0052,Geography,1,What is the capital of France?,London,Paris,Berlin,Rome,Madrid,1,This is a Geography question at difficulty level 1
+geo-l1-0053,Geography,1,How many continents are there?,5,7,6,8,9,1,This is a Geography question at difficulty level 1
+geo-l1-0054,Geography,1,What is the longest river in the world?,Amazon,Nile,Mississippi,Yangtze,Congo,1,This is a Geography question at difficulty level 1
+geo-l1-0055,Geography,1,Which country has the largest population?,India,China,USA,Indonesia,Brazil,1,This is a Geography question at difficulty level 1
+geo-l1-0056,Geography,1,What is the smallest continent?,Europe,Australia,Antarctica,South America,Africa,1,This is a Geography question at difficulty level 1
+geo-l1-0057,Geography,1,What is the tallest mountain in the world?,K2,Mount Everest,Kilimanjaro,Denali,Matterhorn,1,This is a Geography question at difficulty level 1
+geo-l1-0058,Geography,1,What is a peninsula?,An island,Land surrounded by water on three sides,A mountain,A river,A desert,1,This is a Geography question at difficulty level 1
+geo-l1-0059,Geography,1,What causes day and night?,Moon's orbit,Earth's rotation,Sun's movement,Earth's revolution,Tides,1,This is a Geography question at difficulty level 1
+geo-l1-0060,Geography,1,What is the equator?,A country,Imaginary line around Earth's middle,A mountain range,A river,An ocean current,1,This is a Geography question at difficulty level 1
+geo-l2-0061,Geography,2,What is latitude?,Distance from equator,Distance from prime meridian,Height above sea level,Distance from North Pole,Ocean depth,0,This is a Geography question at difficulty level 2
+geo-l2-0062,Geography,2,What causes seasons?,Distance from sun,Earth's tilt and orbit,Moon phases,Solar flares,Ocean currents,1,This is a Geography question at difficulty level 2
+geo-l2-0063,Geography,2,What is a glacier?,A mountain,A large mass of moving ice,A lake,A river,A desert,1,This is a Geography question at difficulty level 2
+geo-l2-0064,Geography,2,What is the Ring of Fire?,A desert,Area of volcanic and seismic activity,A mountain range,A river,An ocean current,1,This is a Geography question at difficulty level 2
+geo-l2-0065,Geography,2,What is the Great Barrier Reef?,A wall,World's largest coral reef system,A mountain range,An island,A river delta,1,This is a Geography question at difficulty level 2
+geo-l2-0066,Geography,2,What is a delta?,A mountain,Sediment deposit where river meets ocean,A lake,A canyon,A desert,1,This is a Geography question at difficulty level 2
+geo-l2-0067,Geography,2,What are trade winds?,Stock market,Persistent winds near equator,Ocean currents,Mountain breezes,Storm systems,1,This is a Geography question at difficulty level 2
+geo-l2-0068,Geography,2,What is the water cycle?,Ocean currents,Continuous movement of water on Earth,River flow,Rainfall only,Ice formation,1,This is a Geography question at difficulty level 2
+geo-l2-0069,Geography,2,What is a monsoon?,A flood,Seasonal wind pattern bringing rain,A hurricane,An earthquake,A drought,1,This is a Geography question at difficulty level 2
+geo-l2-0070,Geography,2,What is erosion?,Building up land,Wearing away of land by natural forces,Volcanic activity,Earthquake damage,Flooding,1,This is a Geography question at difficulty level 2
+geo-l3-0071,Geography,3,What is plate tectonics?,Ocean currents,Theory of moving crustal plates,Weather patterns,River systems,Mountain formation only,1,This is a Geography question at difficulty level 3
+geo-l3-0072,Geography,3,What is the difference between weather and climate?,No difference,"Weather is short-term, climate is long-term patterns","Weather is global, climate is local",Climate is predictions,Weather is temperature only,1,This is a Geography question at difficulty level 3
+geo-l3-0073,Geography,3,What causes earthquakes?,Volcanoes,Movement of tectonic plates,Heavy rain,Wind,Ocean waves,1,This is a Geography question at difficulty level 3
+geo-l3-0074,Geography,3,What is desertification?,Desert expansion,Land degradation into desert,Desert shrinking,Desert rainfall,Desert temperature rise,1,This is a Geography question at difficulty level 3
+geo-l3-0075,Geography,3,What is an aquifer?,A river,Underground water-bearing rock,A lake,An ocean,A glacier,1,This is a Geography question at difficulty level 3
+geo-l3-0076,Geography,3,What is the Coriolis effect?,Ocean warming,Deflection of moving objects due to Earth's rotation,Mountain formation,River flow,Tidal patterns,1,This is a Geography question at difficulty level 3
+geo-l3-0077,Geography,3,What is a watershed?,A water storage,Area draining into a common outlet,A dam,A river,An ocean,1,This is a Geography question at difficulty level 3
+geo-l3-0078,Geography,3,What causes tides?,Wind,Gravitational pull of moon and sun,Earth's rotation only,Ocean currents,Underwater earthquakes,1,This is a Geography question at difficulty level 3
+geo-l3-0079,Geography,3,What is the greenhouse effect?,Plant growth,Warming due to atmospheric gases trapping heat,Ocean warming,Deforestation,Ice melting,1,This is a Geography question at difficulty level 3
+geo-l3-0080,Geography,3,What is a fjord?,A mountain,Deep glacial valley flooded by sea,A lake,A river,A desert,1,This is a Geography question at difficulty level 3
+geo-l4-0081,Geography,4,What is the Intertropical Convergence Zone (ITCZ)?,A desert,Area where trade winds meet near equator,A mountain range,An ocean current,A time zone,1,This is a Geography question at difficulty level 4
+geo-l4-0082,Geography,4,What is isostasy?,Ocean currents,Equilibrium of Earth's crust on mantle,Atmospheric pressure,Magnetic field,Gravity,1,This is a Geography question at difficulty level 4
+geo-l4-0083,Geography,4,What is the thermohaline circulation?,Atmosphere,Global ocean current driven by temperature and salinity,River system,Wind pattern,Tidal system,1,This is a Geography question at difficulty level 4
+geo-l4-0084,Geography,4,What is orographic precipitation?,Ocean rain,Precipitation caused by air rising over mountains,Desert rain,Tornado rain,Hurricane rain,1,This is a Geography question at difficulty level 4
+geo-l4-0085,Geography,4,What is a subduction zone?,Mountain peak,Area where one tectonic plate slides under another,Ocean trench only,Volcanic island,River delta,1,This is a Geography question at difficulty level 4
+geo-l4-0086,Geography,4,What is the difference between extrusive and intrusive igneous rocks?,Color,Where they cool (surface vs underground),Size only,Age,Composition only,1,This is a Geography question at difficulty level 4
+geo-l4-0087,Geography,4,What is karst topography?,Desert landscape,Landscape formed from dissolved limestone,Volcanic landscape,Glacial landscape,Coastal landscape,1,This is a Geography question at difficulty level 4
+geo-l4-0088,Geography,4,What is the jet stream?,Ocean current,Fast-flowing air current in upper atmosphere,River current,Volcanic gas stream,Tidal stream,1,This is a Geography question at difficulty level 4
+geo-l4-0089,Geography,4,What is a halocline?,Mountain layer,Layer in water where salinity changes rapidly,Atmospheric layer,Rock layer,Ice layer,1,This is a Geography question at difficulty level 4
+geo-l4-0090,Geography,4,What is the difference between magma and lava?,Temperature,"Location: magma underground, lava on surface",Composition,Color,Age,1,This is a Geography question at difficulty level 4
+geo-l5-0091,Geography,5,What is the Milankovitch cycle?,Ocean cycle,Long-term climate changes due to Earth's orbital variations,Volcanic cycle,River cycle,Tidal cycle,1,This is a Geography question at difficulty level 5
+geo-l5-0092,Geography,5,What is radiometric dating in geology?,Measuring radiation,Determining age using radioactive decay,Measuring temperature,Dating using tree rings,Using fossils only,1,This is a Geography question at difficulty level 5
+geo-l5-0093,Geography,5,What is the geostrophic wind?,Surface wind,Wind flowing parallel to isobars due to pressure gradient and Coriolis,Mountain wind,Ocean wind,Tornado wind,1,This is a Geography question at difficulty level 5
+geo-l5-0094,Geography,5,What is seafloor spreading?,Ocean widening,New oceanic crust formation at mid-ocean ridges,Ocean deepening,Continental drift,Tsunami formation,1,This is a Geography question at difficulty level 5
+geo-l5-0095,Geography,5,What is the Mohorovičić discontinuity?,Ocean layer,Boundary between Earth's crust and mantle,Atmospheric layer,River boundary,Tectonic plate,1,This is a Geography question at difficulty level 5
+geo-l5-0096,Geography,5,What is the concept of drainage basin morphometry?,River depth,Quantitative analysis of drainage basin characteristics,Ocean basin depth,Lake size,Watershed area only,1,This is a Geography question at difficulty level 5
+geo-l5-0097,Geography,5,What is the Bergeron process?,Mountain formation,Ice crystal precipitation formation in clouds,River erosion,Ocean circulation,Desert formation,1,This is a Geography question at difficulty level 5
+geo-l5-0098,Geography,5,What is anastomosing drainage pattern?,Single river,Multiple interconnected channels,Straight river,Circular lake,Mountain stream,1,This is a Geography question at difficulty level 5
+geo-l5-0099,Geography,5,What is the concept of geomorphic threshold?,Mountain height,Point where landform suddenly changes,River depth,Ocean temperature,Atmospheric pressure,1,This is a Geography question at difficulty level 5
+geo-l5-0100,Geography,5,What is the Walker Circulation?,Mountain air,Atmospheric circulation over Pacific affecting El Niño,Ocean current,River flow,Desert wind,1,This is a Geography question at difficulty level 5
+mat-l1-0101,Math,1,What is 2 + 2?,3,4,5,6,7,1,This is a Math question at difficulty level 1
+mat-l1-0102,Math,1,What is a square?,3-sided shape,4-sided shape with equal sides,Circle,Triangle,Pentagon,1,This is a Math question at difficulty level 1
+mat-l1-0103,Math,1,What is half of 10?,4,5,6,7,8,1,This is a Math question at difficulty level 1
+mat-l1-0104,Math,1,How many sides does a triangle have?,2,3,4,5,6,1,This is a Math question at difficulty level 1
+mat-l1-0105,Math,1,What is 10 - 3?,6,7,8,9,10,1,This is a Math question at difficulty level 1
+mat-l1-0106,Math,1,What is multiplication?,Subtracting numbers,Adding a number to itself repeatedly,Dividing numbers,Finding differences,Measuring,1,This is a Math question at difficulty level 1
+mat-l1-0107,Math,1,What is the value of a dozen?,10,12,20,24,100,1,This is a Math question at difficulty level 1
+mat-l1-0108,Math,1,What is an even number?,Number divisible by 3,Number divisible by 2,Odd number,Prime number,Negative number,1,This is a Math question at difficulty level 1
+mat-l1-0109,Math,1,What is the area of a shape?,Its length,Space inside the shape,Its perimeter,Its weight,Its height,1,This is a Math question at difficulty level 1
+mat-l1-0110,Math,1,What is a fraction?,Whole number,Part of a whole,Large number,Negative number,Decimal,1,This is a Math question at difficulty level 1
+mat-l2-0111,Math,2,What is the value of pi (π) approximately?,2.14,3.14,4.14,5.14,6.14,1,This is a Math question at difficulty level 2
+mat-l2-0112,Math,2,What is the Pythagorean theorem?,a + b = c,a² + b² = c²,a × b = c,a - b = c,a ÷ b = c,1,This is a Math question at difficulty level 2
+mat-l2-0113,Math,2,What is a prime number?,Even number,Number divisible only by 1 and itself,Odd number,Number divisible by 2,Fraction,1,This is a Math question at difficulty level 2
+mat-l2-0114,Math,2,What is the perimeter of a rectangle with length 5 and width 3?,8,16,15,30,25,1,This is a Math question at difficulty level 2
+mat-l2-0115,Math,2,What is 25% of 100?,20,25,30,50,75,1,This is a Math question at difficulty level 2
+mat-l2-0116,Math,2,What is the sum of angles in a triangle?,90°,180°,270°,360°,120°,1,This is a Math question at difficulty level 2
+mat-l2-0117,Math,2,What is a negative number?,Number greater than zero,Number less than zero,Zero,Fraction,Decimal,1,This is a Math question at difficulty level 2
+mat-l2-0118,Math,2,What is the square root of 64?,6,8,10,12,16,1,This is a Math question at difficulty level 2
+mat-l2-0119,Math,2,What is a parallelogram?,Circle,Quadrilateral with opposite sides parallel,Triangle,Pentagon,Hexagon,1,This is a Math question at difficulty level 2
+mat-l2-0120,Math,2,What is 3/4 as a decimal?,0.25,0.75,0.50,0.34,0.43,1,This is a Math question at difficulty level 2
+mat-l3-0121,Math,3,What is the quadratic formula?,ax + b = 0,x = (-b ± √(b²-4ac)) / 2a,y = mx + b,a² + b² = c²,x + y = z,1,This is a Math question at difficulty level 3
+mat-l3-0122,Math,3,What is the derivative of x²?,x,2x,x²,2,0,1,This is a Math question at difficulty level 3
+mat-l3-0123,Math,3,What is a logarithm?,Exponent,Inverse of exponential function,Square root,Fraction,Prime number,1,This is a Math question at difficulty level 3
+mat-l3-0124,Math,3,What is the slope-intercept form of a line?,ax + by = c,y = mx + b,y = x²,x = my + b,a² + b² = c²,1,This is a Math question at difficulty level 3
+mat-l3-0125,Math,3,What is factorial of 5 (5!)?,25,120,100,60,15,1,This is a Math question at difficulty level 3
+mat-l3-0126,Math,3,What is the value of e (Euler's number) approximately?,1.71,2.71,3.71,4.71,5.71,1,This is a Math question at difficulty level 3
+mat-l3-0127,Math,3,What is an asymptote?,Intersection point,Line that curve approaches but never touches,Slope,Y-intercept,Vertex,1,This is a Math question at difficulty level 3
+mat-l3-0128,Math,3,What is the area of a circle with radius 5?,10π,25π,5π,50π,100π,1,This is a Math question at difficulty level 3
+mat-l3-0129,Math,3,What is a matrix?,A number,Rectangular array of numbers,A fraction,A circle,A line,1,This is a Math question at difficulty level 3
+mat-l3-0130,Math,3,What is the difference between mean and median?,No difference,"Mean is average, median is middle value","Mean is middle, median is average",Both are the same,Mean is mode,1,This is a Math question at difficulty level 3
+mat-l4-0131,Math,4,What is the fundamental theorem of calculus?,Derivative rule,Connection between differentiation and integration,Limit definition,Chain rule,Product rule,1,This is a Math question at difficulty level 4
+mat-l4-0132,Math,4,What is a vector space?,Set of numbers,Set with defined addition and scalar multiplication,Matrix,Function,Sequence,1,This is a Math question at difficulty level 4
+mat-l4-0133,Math,4,What is the Binomial Theorem?,(a+b)² = a²+2ab+b²,Expansion of (a+b)ⁿ using combinations,Pythagorean theorem,Quadratic formula,Derivative rule,1,This is a Math question at difficulty level 4
+mat-l4-0134,Math,4,What is a complex number?,Large number,Number with real and imaginary parts,Negative number,Fraction,Prime number,1,This is a Math question at difficulty level 4
+mat-l4-0135,Math,4,What is the limit definition of derivative?,f'(x) = f(x+h),f'(x) = lim[h→0] (f(x+h)-f(x))/h,f'(x) = 2x,f'(x) = ∫f(x)dx,f'(x) = f(x),1,This is a Math question at difficulty level 4
+mat-l4-0136,Math,4,What is an eigenvector?,Large vector,Vector that stays in same direction under transformation,Zero vector,Unit vector,Position vector,1,This is a Math question at difficulty level 4
+mat-l4-0137,Math,4,What is Taylor series?,Number series,Function representation as infinite sum of terms,Arithmetic series,Geometric series,Fibonacci sequence,1,This is a Math question at difficulty level 4
+mat-l4-0138,Math,4,What is the Intermediate Value Theorem?,All functions are continuous,Continuous function takes all values between f(a) and f(b),Derivatives exist everywhere,Integrals always converge,Limits always exist,1,This is a Math question at difficulty level 4
+mat-l4-0139,Math,4,What is a partial derivative?,Full derivative,Derivative with respect to one variable,No derivative,Complex derivative,Matrix derivative,1,This is a Math question at difficulty level 4
+mat-l4-0140,Math,4,What is the divergence of a vector field?,Vector,Scalar measuring field's source strength,Matrix,Function,Constant,1,This is a Math question at difficulty level 4
+mat-l5-0141,Math,5,What is the Riemann Hypothesis about?,Prime numbers,Distribution of zeros of zeta function,Pi value,E value,Infinity,1,This is a Math question at difficulty level 5
+mat-l5-0142,Math,5,What is a Hilbert space?,Small space,Complete inner product space,Metric space only,Topological space,Vector field,1,This is a Math question at difficulty level 5
+mat-l5-0143,Math,5,What is Gödel's Incompleteness Theorem?,All theorems provable,Consistent systems have unprovable truths,Math is complete,Logic is perfect,Axioms prove everything,1,This is a Math question at difficulty level 5
+mat-l5-0144,Math,5,What is the Cauchy-Riemann equations used for?,Real functions,Testing analyticity of complex functions,Matrix operations,Vector calculus,Number theory,1,This is a Math question at difficulty level 5
+mat-l5-0145,Math,5,What is a Banach space?,Infinite space,Complete normed vector space,Metric space,Topological space,Hilbert space,1,This is a Math question at difficulty level 5
+mat-l5-0146,Math,5,What is the Fourier Transform?,Matrix operation,Decomposition of function into frequencies,Derivative,Integral,Limit,1,This is a Math question at difficulty level 5
+mat-l5-0147,Math,5,What is a manifold in topology?,Flat surface,Space locally resembling Euclidean space,Curved line,Point set,Graph,1,This is a Math question at difficulty level 5
+mat-l5-0148,Math,5,What is the Heine-Borel Theorem?,All sets are compact,Subset of Rⁿ is compact iff closed and bounded,Open sets are compact,Finite sets are compact,Infinite sets are compact,1,This is a Math question at difficulty level 5
+mat-l5-0149,Math,5,What is the Stone-Weierstrass Theorem about?,Polynomials,Approximating continuous functions,Derivatives,Integrals,Limits,1,This is a Math question at difficulty level 5
+mat-l5-0150,Math,5,What is a Lie group?,Number group,Group that is also a differentiable manifold,Matrix group only,Finite group,Cyclic group,1,This is a Math question at difficulty level 5
