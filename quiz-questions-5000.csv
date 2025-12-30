@@ -1,0 +1,101 @@
+id,category,level,text,answer1,answer2,answer3,answer4,answer5,correctAnswerIndex,hint
+bio-l1-001,Biology,1,What is the basic unit of life?,Atom,Molecule,Cell,Tissue,Organ,2,Think about the smallest living component
+bio-l1-002,Biology,1,Which organ pumps blood throughout the body?,Liver,Heart,Kidney,Brain,Lungs,1,It beats approximately 100000 times per day
+bio-l1-003,Biology,1,What do plants produce during photosynthesis?,Carbon dioxide,Water,Oxygen,Nitrogen,Hydrogen,2,It's what we breathe
+bio-l1-004,Biology,1,How many bones are in the adult human body?,186,206,226,246,266,1,It's just over 200
+bio-l1-005,Biology,1,Which blood type is known as the universal donor?,A,B,AB,O,AB-,3,Think about which type can be given to anyone
+bio-l1-006,Biology,1,What is the largest organ in the human body?,Heart,Brain,Liver,Skin,Lungs,3,It covers your entire body
+bio-l1-007,Biology,1,What carries genetic information in living organisms?,Protein,Carbohydrate,DNA,Fat,Water,2,It's a double helix structure
+bio-l1-008,Biology,1,Which system breaks down food?,Respiratory,Circulatory,Digestive,Nervous,Skeletal,2,Think about what happens after you eat
+bio-l1-009,Biology,1,What is the green pigment in plants called?,Hemoglobin,Melanin,Chlorophyll,Keratin,Collagen,2,It's responsible for the green color
+bio-l1-010,Biology,1,How many chambers does the human heart have?,Two,Three,Four,Five,Six,2,Think of pairs
+bio-l1-011,Biology,1,What is the main function of red blood cells?,Fight infection,Carry oxygen,Clot blood,Store nutrients,Produce hormones,1,They contain hemoglobin
+bio-l1-012,Biology,1,Which part of the plant absorbs water from soil?,Leaves,Stem,Roots,Flowers,Seeds,2,They grow underground
+bio-l1-013,Biology,1,What is the study of animals called?,Botany,Zoology,Geology,Astronomy,Chemistry,1,Zoo animals are studied in this field
+bio-l1-014,Biology,1,Which vitamin is produced by the skin when exposed to sunlight?,Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin E,3,Important for bone health
+bio-l1-015,Biology,1,What is the largest artery in the human body?,Pulmonary artery,Carotid artery,Aorta,Femoral artery,Renal artery,2,It carries blood from the heart
+bio-l1-016,Biology,1,How many pairs of chromosomes do humans have?,21,22,23,24,25,2,The total is 46
+bio-l1-017,Biology,1,What is the colored part of the eye called?,Pupil,Retina,Iris,Cornea,Lens,2,It determines eye color
+bio-l1-018,Biology,1,Which gas do plants absorb from the atmosphere?,Oxygen,Nitrogen,Carbon dioxide,Helium,Hydrogen,2,The opposite of what they produce
+bio-l1-019,Biology,1,What is the smallest bone in the human body?,Femur,Stapes,Radius,Fibula,Ulna,1,It's in the ear
+bio-l1-020,Biology,1,Which organ produces insulin?,Liver,Pancreas,Kidney,Spleen,Gallbladder,1,Important for blood sugar regulation
+bio-l1-021,Biology,1,What type of animal is a dolphin?,Fish,Amphibian,Reptile,Mammal,Bird,3,They breathe air and feed milk to young
+bio-l1-022,Biology,1,How many teeth does an adult human typically have?,28,30,32,34,36,2,Including wisdom teeth
+bio-l1-023,Biology,1,What is the longest bone in the human body?,Humerus,Tibia,Femur,Fibula,Radius,2,It's your thigh bone
+bio-l1-024,Biology,1,Which part of the brain controls balance?,Cerebrum,Cerebellum,Medulla,Pons,Hypothalamus,1,Located at the back of the brain
+bio-l1-025,Biology,1,What is the main component of hair and nails?,Collagen,Keratin,Elastin,Melanin,Chitin,1,A type of protein
+bio-l1-026,Biology,1,How many lungs does a human have?,One,Two,Three,Four,Five,1,They're in your chest
+bio-l1-027,Biology,1,What is the process of cell division called?,Meiosis,Mitosis,Photosynthesis,Respiration,Digestion,1,Creates identical copies
+bio-l1-028,Biology,1,Which nutrient is the primary source of energy?,Protein,Vitamins,Carbohydrates,Minerals,Water,2,Found in bread and pasta
+bio-l1-029,Biology,1,What is the outer layer of skin called?,Dermis,Epidermis,Hypodermis,Subcutis,Fascia,1,The outermost layer
+bio-l1-030,Biology,1,Which sense is associated with the nose?,Sight,Hearing,Smell,Taste,Touch,2,Used to detect odors
+bio-l1-031,Biology,1,What connects muscles to bones?,Ligaments,Tendons,Cartilage,Joints,Nerves,1,Strong fibrous tissue
+bio-l1-032,Biology,1,How many kidneys does a human typically have?,One,Two,Three,Four,Five,1,They filter blood
+bio-l1-033,Biology,1,What is the largest internal organ?,Heart,Liver,Brain,Stomach,Intestine,1,It has many functions including detoxification
+bio-l1-034,Biology,1,Which blood vessels carry blood to the heart?,Arteries,Veins,Capillaries,Venules,Arterioles,1,The opposite of arteries
+bio-l1-035,Biology,1,What is the normal human body temperature in Celsius?,35°C,36°C,37°C,38°C,39°C,2,Around 98.6°F
+bio-l1-036,Biology,1,Which gland controls growth?,Thyroid,Pituitary,Adrenal,Pineal,Thymus,1,Called the master gland
+bio-l1-037,Biology,1,What is the liquid part of blood called?,Serum,Plasma,Lymph,Hemoglobin,Antibody,1,The yellowish fluid
+bio-l1-038,Biology,1,How many senses do humans have?,Three,Four,Five,Six,Seven,2,The traditional count
+bio-l1-039,Biology,1,What is the voice box called?,Pharynx,Larynx,Trachea,Bronchi,Epiglottis,1,Contains vocal cords
+bio-l1-040,Biology,1,Which organ stores bile?,Liver,Gallbladder,Pancreas,Spleen,Kidney,1,A small sac under the liver
+bio-l1-041,Biology,1,What is the study of plants called?,Zoology,Botany,Ecology,Mycology,Geology,1,Gardens are maintained by specialists in this field
+bio-l1-042,Biology,1,How many weeks is a typical human pregnancy?,36,38,40,42,44,2,Just over 9 months
+bio-l1-043,Biology,1,What is the smallest unit of protein?,Amino acid,Nucleotide,Glucose,Fatty acid,Glycerol,0,Building blocks of proteins
+bio-l1-044,Biology,1,Which part of the cell contains genetic material?,Cytoplasm,Nucleus,Mitochondria,Ribosome,Lysosome,1,The control center
+bio-l1-045,Biology,1,What is the body's largest muscle?,Biceps,Quadriceps,Gluteus maximus,Deltoid,Gastrocnemius,2,In your buttocks
+bio-l1-046,Biology,1,How many taste buds does the average human have?,500,2500,5000,10000,20000,3,In the thousands
+bio-l1-047,Biology,1,What is the windpipe called?,Esophagus,Larynx,Trachea,Pharynx,Bronchus,2,Connects throat to lungs
+bio-l1-048,Biology,1,Which vitamin helps blood clot?,Vitamin A,Vitamin C,Vitamin D,Vitamin E,Vitamin K,4,The last one alphabetically in common vitamins
+bio-l1-049,Biology,1,What is the jelly-like substance inside cells?,Cytoplasm,Protoplasm,Nucleoplasm,Ectoplasm,Endoplasm,0,Between the membrane and nucleus
+bio-l1-050,Biology,1,How many molars does an adult have?,8,10,12,14,16,2,Three on each side top and bottom
+bio-l1-051,Biology,1,What is the largest gland in the human body?,Thyroid,Pituitary,Liver,Pancreas,Adrenal,2,It's also an organ
+bio-l1-052,Biology,1,Which organ filters blood?,Heart,Liver,Kidney,Spleen,Lungs,2,You have two of these
+bio-l1-053,Biology,1,What is the scientific name for the kneecap?,Patella,Tibia,Fibula,Femur,Radius,0,A small bone protecting the knee joint
+bio-l1-054,Biology,1,How many cervical vertebrae are in the human neck?,5,6,7,8,9,2,Less than 10
+bio-l1-055,Biology,1,What is the muscle that separates chest from abdomen?,Diaphragm,Pericardium,Pleura,Peritoneum,Mesentery,0,Important for breathing
+bio-l1-056,Biology,1,Which blood cells fight infection?,Red blood cells,White blood cells,Platelets,Plasma cells,Stem cells,1,Part of immune system
+bio-l1-057,Biology,1,What is the outer covering of a tooth?,Enamel,Dentin,Pulp,Cementum,Gingiva,0,The hardest substance in the body
+bio-l1-058,Biology,1,How many chambers are in the human stomach?,1,2,3,4,5,0,It's one continuous organ
+bio-l1-059,Biology,1,What is the normal resting heart rate for adults?,40-60 bpm,60-100 bpm,100-120 bpm,120-140 bpm,140-160 bpm,1,Around 70 beats per minute on average
+bio-l1-060,Biology,1,Which organ produces digestive enzymes?,Stomach,Liver,Pancreas,Gallbladder,Spleen,2,Has both endocrine and exocrine functions
+bio-l1-061,Biology,1,What is the clear fluid that bathes the brain?,Blood,Lymph,Cerebrospinal fluid,Plasma,Serum,2,Acts as a cushion
+bio-l1-062,Biology,1,How many pairs of ribs does a human have?,10,11,12,13,14,2,Total of 24 ribs
+bio-l1-063,Biology,1,What is the medical term for the collarbone?,Clavicle,Scapula,Sternum,Humerus,Radius,0,Connects shoulder to chest
+bio-l1-064,Biology,1,Which organ produces red blood cells?,Liver,Spleen,Bone marrow,Kidney,Thymus,2,Found inside bones
+bio-l1-065,Biology,1,What is the pigment responsible for skin color?,Keratin,Melanin,Hemoglobin,Carotene,Chlorophyll,1,Protects against UV radiation
+bio-l1-066,Biology,1,How many layers does skin have?,1,2,3,4,5,2,Epidermis dermis and hypodermis
+bio-l1-067,Biology,1,What is the strongest muscle in the body?,Biceps,Quadriceps,Masseter,Gluteus,Deltoid,2,The jaw muscle
+bio-l1-068,Biology,1,Which organ regulates body temperature?,Brain,Liver,Skin,Heart,Kidneys,2,Through sweating and blood flow
+bio-l1-069,Biology,1,What is the tube connecting kidney to bladder?,Ureter,Urethra,Vas deferens,Duct,Canal,0,One for each kidney
+bio-l1-070,Biology,1,How many permanent teeth should a child develop?,20,24,28,32,36,3,Replaces all baby teeth plus more
+bio-l1-071,Biology,1,What is the medical term for the voice box?,Pharynx,Larynx,Trachea,Bronchus,Epiglottis,1,Contains the vocal cords
+bio-l1-072,Biology,1,Which vitamin is essential for vision?,Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin E,0,Found in carrots
+bio-l1-073,Biology,1,What is the largest lymphatic organ?,Thymus,Spleen,Tonsils,Appendix,Lymph nodes,1,Located in upper left abdomen
+bio-l1-074,Biology,1,How many cranial nerves are there?,10,12,14,16,18,1,An even dozen
+bio-l1-075,Biology,1,What is the function of platelets?,Carry oxygen,Fight infection,Clot blood,Transport nutrients,Remove waste,2,Prevent bleeding
+bio-l1-076,Biology,1,Which gland produces adrenaline?,Pituitary,Thyroid,Adrenal,Pancreas,Pineal,2,Located above kidneys
+bio-l1-077,Biology,1,What is the scientific name for the shin bone?,Femur,Tibia,Fibula,Patella,Humerus,1,The larger of two lower leg bones
+bio-l1-078,Biology,1,How many lobes does the right lung have?,1,2,3,4,5,2,More than the left lung
+bio-l1-079,Biology,1,What is the opening in the iris called?,Lens,Pupil,Cornea,Retina,Optic disc,1,Changes size in different light
+bio-l1-080,Biology,1,Which organ stores glycogen?,Liver,Pancreas,Spleen,Kidney,Gallbladder,0,Main carbohydrate storage
+bio-l1-081,Biology,1,What is the membrane surrounding the heart?,Pleura,Pericardium,Peritoneum,Meninges,Fascia,1,A protective sac
+bio-l1-082,Biology,1,How many vertebrae are in the spine?,26,30,33,36,40,2,Including fused bones
+bio-l1-083,Biology,1,What is the smallest muscle in the body?,Stapedius,Orbicularis,Masseter,Sartorius,Palmaris,0,In the middle ear
+bio-l1-084,Biology,1,Which organ produces bile?,Liver,Gallbladder,Pancreas,Stomach,Spleen,0,Aids in fat digestion
+bio-l1-085,Biology,1,What is the medical term for the thigh bone?,Tibia,Fibula,Femur,Humerus,Radius,2,The longest bone
+bio-l1-086,Biology,1,How many parathyroid glands are typically present?,2,3,4,5,6,2,Two pairs
+bio-l1-087,Biology,1,What is the function of hemoglobin?,Clot blood,Carry oxygen,Fight infection,Digest food,Store energy,1,In red blood cells
+bio-l1-088,Biology,1,Which organ produces hydrochloric acid?,Liver,Stomach,Pancreas,Intestine,Esophagus,1,For digestion
+bio-l1-089,Biology,1,What is the space between neurons called?,Junction,Synapse,Gap,Node,Bridge,1,Where signals cross
+bio-l1-090,Biology,1,How many baby teeth do children have?,16,18,20,22,24,2,All replaced by permanent teeth
+bio-l1-091,Biology,1,What is the largest salivary gland?,Sublingual,Parotid,Submandibular,Buccal,Labial,1,Near the ear
+bio-l1-092,Biology,1,Which organ controls circadian rhythm?,Hypothalamus,Pineal gland,Pituitary,Thyroid,Adrenal,1,Produces melatonin
+bio-l1-093,Biology,1,What is the medical term for the shoulder blade?,Clavicle,Scapula,Sternum,Humerus,Radius,1,A flat triangular bone
+bio-l1-094,Biology,1,How many semicircular canals are in each ear?,1,2,3,4,5,2,For balance
+bio-l1-095,Biology,1,What is the tube that carries food to the stomach?,Trachea,Esophagus,Duodenum,Jejunum,Ileum,1,Behind the trachea
+bio-l1-096,Biology,1,Which vitamin prevents scurvy?,Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin K,2,Found in citrus fruits
+bio-l1-097,Biology,1,What is the functional unit of the kidney?,Neuron,Nephron,Alveoli,Villi,Lobule,1,Filters blood
+bio-l1-098,Biology,1,How many bones are in the human hand?,23,25,27,29,31,2,Including wrist bones
+bio-l1-099,Biology,1,What is the membrane surrounding the brain?,Pleura,Pericardium,Peritoneum,Meninges,Fascia,3,Three layers
+bio-l1-100,Biology,1,Which organ produces most of the body's heat?,Liver,Brain,Muscles,Heart,Lungs,0,Metabolically very active
