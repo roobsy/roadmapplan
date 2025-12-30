@@ -62,9 +62,21 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       StorageService.saveQuestionBank(questionBank);
     }
 
+    // Merge saved config with defaults to ensure all fields exist
+    const defaultConfig = getDefaultConfig();
+    const mergedConfig = savedConfig
+      ? {
+          ...defaultConfig,
+          ...savedConfig,
+          // Ensure new fields have default values if not present
+          importExportLogs: savedConfig.importExportLogs || [],
+          fuzzyMatchSensitivity: savedConfig.fuzzyMatchSensitivity ?? 0.7,
+        }
+      : defaultConfig;
+
     return {
       currentView: 'config',
-      config: savedConfig || getDefaultConfig(),
+      config: mergedConfig,
       currentSession: null,
       history: savedHistory,
       questionBank,
