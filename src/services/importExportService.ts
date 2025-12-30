@@ -242,7 +242,8 @@ export class ImportExportService {
         }
       };
       reader.onerror = () => reject(new Error('Failed to read file'));
-      reader.readAsText(file);
+      // Explicitly specify UTF-8 encoding
+      reader.readAsText(file, 'UTF-8');
     });
   }
 }
