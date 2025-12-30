@@ -97,7 +97,8 @@ export class CSVService {
     const questions: Question[] = [];
     const errors: string[] = [];
 
-    const lines = csvContent.split('\n').filter(line => line.trim());
+    // Handle different line endings (Windows \r\n, Unix \n, old Mac \r)
+    const lines = csvContent.split(/\r?\n/).filter(line => line.trim());
     if (lines.length < 2) {
       errors.push('CSV file is empty or missing data');
       return { questions, errors };
@@ -118,11 +119,28 @@ export class CSVService {
       'hint',
     ];
 
+    // Debug logging
+    console.log('CSV Parser Debug:');
+    console.log('- Total lines:', lines.length);
+    console.log('- First line raw:', lines[0]);
+    console.log('- Detected headers:', headers);
+    console.log('- Header count:', headers.length);
+    console.log('- Required headers:', requiredHeaders);
+
     // Validate headers
+    const missingHeaders: string[] = [];
     for (const required of requiredHeaders) {
       if (!headers.includes(required)) {
-        errors.push(`Missing required column: ${required}`);
+        missingHeaders.push(required);
       }
+    }
+
+    if (missingHeaders.length > 0) {
+      errors.push(
+        `Missing required columns: ${missingHeaders.join(', ')}. ` +
+        `Detected headers: [${headers.join(', ')}]`
+      );
+      return { questions, errors };
     }
 
     if (errors.length > 0) {
