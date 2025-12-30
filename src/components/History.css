@@ -1,0 +1,167 @@
+.history-page {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history-page h2 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 32px;
+}
+
+.no-history {
+  text-align: center;
+  padding: 50px 20px;
+  color: #666;
+  font-size: 18px;
+}
+
+.history-stats {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  background: #f5f7ff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.history-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-stat .stat-label {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+.history-stat .stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.history-item {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.history-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.history-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.history-item-header:hover {
+  background: #f5f7ff;
+}
+
+.history-item-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.history-date {
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+.history-level {
+  padding: 4px 12px;
+  background: #667eea;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.history-categories {
+  color: #666;
+  font-size: 14px;
+}
+
+.history-item-score {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.score-text {
+  font-weight: 700;
+  color: #333;
+  font-size: 18px;
+}
+
+.history-item-score .score-percentage {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4CAF50;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #667eea;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: transform 0.3s ease;
+}
+
+.history-item-details {
+  padding: 20px;
+  background: white;
+  border-top: 2px solid #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .history-stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .history-item-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .history-item-info {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .history-item-score {
+    justify-content: space-between;
+  }
+
+  .expand-button {
+    align-self: center;
+  }
+}
