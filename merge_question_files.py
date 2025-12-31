@@ -124,11 +124,12 @@ class QuestionValidator:
 class QuestionMerger:
     """Merges multiple XLSX files into a single validated CSV"""
 
-    def __init__(self, source_folder: str, output_csv: str, log_file: str):
+    def __init__(self, source_folder: str, output_csv: str, log_file: str, debug: bool = False):
         self.source_folder = Path(source_folder)
         self.output_csv = Path(output_csv)
         self.log_file = Path(log_file)
         self.validator = QuestionValidator()
+        self.debug = debug
 
         # Statistics
         self.stats = {
@@ -243,6 +244,33 @@ class QuestionMerger:
                 self.stats['source_files'].append(file_stats)
                 continue
 
+            # Check for column mismatches (only for first file to avoid spam)
+            if idx == 1 and not df.empty:
+                detected_columns = list(df.columns)
+                missing_columns = [col for col in EXPECTED_COLUMNS if col not in detected_columns]
+                extra_columns = [col for col in detected_columns if col not in EXPECTED_COLUMNS]
+
+                if missing_columns or extra_columns:
+                    print(f"\n⚠️  COLUMN MISMATCH DETECTED in {file_path.name}:")
+                    if missing_columns:
+                        print(f"   Missing columns: {', '.join(missing_columns)}")
+                    if extra_columns:
+                        print(f"   Extra columns: {', '.join(extra_columns)}")
+                    print(f"   Expected: {', '.join(EXPECTED_COLUMNS)}")
+                    print()
+
+                # Show sample data in debug mode
+                if self.debug:
+                    print(f"\n🔍 DEBUG: First file structure ({file_path.name}):")
+                    print(f"   Columns detected: {detected_columns}")
+                    print(f"   Total rows: {len(df)}")
+                    if not df.empty:
+                        print(f"\n   Sample data (first row):")
+                        for col in detected_columns[:5]:  # Show first 5 columns
+                            value = df.iloc[0][col] if col in df.columns else 'N/A'
+                            print(f"      {col}: {str(value)[:50]}")
+                    print()
+
             # Validate each row
             for row_idx, row in df.iterrows():
                 source_row_num = row_idx + 2  # +2 because Excel is 1-indexed and has header
@@ -272,6 +300,27 @@ class QuestionMerger:
         # Merge all valid data
         if not all_data:
             print("\n❌ Error: No valid data to merge!")
+            print("\n🔍 DIAGNOSTIC INFORMATION:")
+            print("=" * 80)
+
+            # Show sample errors from first file
+            if self.stats['all_errors']:
+                print(f"Found {len(self.stats['all_errors'])} total validation errors.")
+                print("\nSample errors from first file:")
+                print("-" * 80)
+
+                # Get errors from first file only
+                first_file_errors = [e for e in self.stats['all_errors'][:5]]
+
+                for idx, error in enumerate(first_file_errors, 1):
+                    print(f"\n❌ Error {idx} (File: {error['source_file']}, Row: {error['row_num']}):")
+                    for err_msg in error['errors'][:3]:  # Show first 3 errors per row
+                        print(f"   • {err_msg}")
+
+                print("\n" + "=" * 80)
+                print(f"💡 TIP: Check '{self.log_file}' for complete error details")
+                print("=" * 80)
+
             self.write_log()
             return False
 
@@ -513,6 +562,12 @@ Examples:
         help='Validate only, do not create output file'
     )
 
+    parser.add_argument(
+        '--debug',
+        action='store_true',
+        help='Show detailed diagnostic information including sample data'
+    )
+
     args = parser.parse_args()
 
     # Validate input folder exists
@@ -529,7 +584,8 @@ Examples:
     merger = QuestionMerger(
         source_folder=args.input,
         output_csv=args.output,
-        log_file=args.log
+        log_file=args.log,
+        debug=args.debug
     )
 
     # Run merge
