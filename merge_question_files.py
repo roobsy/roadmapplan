@@ -143,6 +143,66 @@ class QuestionMerger:
             'all_warnings': []
         }
 
+    def normalize_columns(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Normalize column names to handle case variations and common alternatives
+
+        Handles:
+        - Case insensitivity (Category -> category)
+        - Common variations (Text -> text, Answer1 -> answer1)
+        - Alternative names (correctAnswer -> correctAnswerIndex)
+        """
+        # Column mapping: alternative names -> expected names
+        column_mapping = {
+            # Case variations
+            'id': 'id',
+            'category': 'category',
+            'level': 'level',
+            'text': 'text',
+            'answer1': 'answer1',
+            'answer2': 'answer2',
+            'answer3': 'answer3',
+            'answer4': 'answer4',
+            'answer5': 'answer5',
+            'correctanswerindex': 'correctAnswerIndex',
+            'hint': 'hint',
+
+            # Common alternatives
+            'question': 'text',
+            'questiontext': 'text',
+            'correctanswer': 'correctAnswerIndex',
+            'correct': 'correctAnswerIndex',
+            'correctindex': 'correctAnswerIndex',
+            'answer': 'correctAnswerIndex',
+            'correctanswer2': 'correctAnswerIndex',  # User's specific case
+
+            # Option variations
+            'option1': 'answer1',
+            'option2': 'answer2',
+            'option3': 'answer3',
+            'option4': 'answer4',
+            'option5': 'answer5',
+            'choice1': 'answer1',
+            'choice2': 'answer2',
+            'choice3': 'answer3',
+            'choice4': 'answer4',
+            'choice5': 'answer5',
+        }
+
+        # Create a new column name mapping
+        new_columns = {}
+        for col in df.columns:
+            col_lower = str(col).lower().strip()
+            if col_lower in column_mapping:
+                new_columns[col] = column_mapping[col_lower]
+            else:
+                new_columns[col] = col  # Keep original if no mapping found
+
+        # Rename columns
+        df = df.rename(columns=new_columns)
+
+        return df
+
     def find_question_files(self) -> List[Path]:
         """Find all XLSX and CSV files in source folder"""
         xlsx_files = list(self.source_folder.glob('*.xlsx'))
@@ -170,6 +230,9 @@ class QuestionMerger:
                 df = pd.read_csv(file_path, encoding='utf-8')
             else:
                 raise ValueError(f"Unsupported file type: {file_path.suffix}")
+
+            # Normalize column names (case-insensitive + common variations)
+            df = self.normalize_columns(df)
 
             # Get statistics
             stats = {
