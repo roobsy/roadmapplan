@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Question merge outputs (test files)
+test-*.csv
+test-*.log
+*-merge*.log
