@@ -142,30 +142,39 @@ class QuestionMerger:
             'all_warnings': []
         }
 
-    def find_xlsx_files(self) -> List[Path]:
-        """Find all XLSX files in source folder"""
+    def find_question_files(self) -> List[Path]:
+        """Find all XLSX and CSV files in source folder"""
         xlsx_files = list(self.source_folder.glob('*.xlsx'))
+        csv_files = list(self.source_folder.glob('*.csv'))
 
         # Filter out temporary Excel files (starting with ~$)
         xlsx_files = [f for f in xlsx_files if not f.name.startswith('~$')]
 
-        return sorted(xlsx_files)
+        # Combine and sort
+        all_files = xlsx_files + csv_files
+        return sorted(all_files)
 
-    def read_xlsx_file(self, file_path: Path) -> Tuple[pd.DataFrame, Dict]:
+    def read_question_file(self, file_path: Path) -> Tuple[pd.DataFrame, Dict]:
         """
-        Read XLSX file and return DataFrame with statistics
+        Read XLSX or CSV file and return DataFrame with statistics
 
         Returns:
             Tuple of (DataFrame, stats_dict)
         """
         try:
-            # Read Excel file
-            df = pd.read_excel(file_path, engine='openpyxl')
+            # Determine file type and read accordingly
+            if file_path.suffix.lower() == '.xlsx':
+                df = pd.read_excel(file_path, engine='openpyxl')
+            elif file_path.suffix.lower() == '.csv':
+                df = pd.read_csv(file_path, encoding='utf-8')
+            else:
+                raise ValueError(f"Unsupported file type: {file_path.suffix}")
 
             # Get statistics
             stats = {
                 'file_name': file_path.name,
                 'file_path': str(file_path),
+                'file_type': file_path.suffix.upper(),
                 'total_rows': len(df),
                 'categories': sorted(df['category'].dropna().unique().tolist()) if 'category' in df.columns else [],
                 'levels': sorted(df['level'].dropna().unique().tolist()) if 'level' in df.columns else [],
@@ -183,6 +192,7 @@ class QuestionMerger:
             stats = {
                 'file_name': file_path.name,
                 'file_path': str(file_path),
+                'file_type': file_path.suffix.upper() if file_path.suffix else 'UNKNOWN',
                 'total_rows': 0,
                 'categories': [],
                 'levels': [],
@@ -208,22 +218,25 @@ class QuestionMerger:
         print(f"Output CSV: {self.output_csv}")
         print(f"Log file: {self.log_file}\n")
 
-        # Find XLSX files
-        xlsx_files = self.find_xlsx_files()
+        # Find question files (XLSX and CSV)
+        question_files = self.find_question_files()
 
-        if not xlsx_files:
-            print(f"❌ Error: No XLSX files found in {self.source_folder}")
+        if not question_files:
+            print(f"❌ Error: No XLSX or CSV files found in {self.source_folder}")
             return False
 
-        print(f"Found {len(xlsx_files)} XLSX files\n")
+        # Count file types
+        xlsx_count = sum(1 for f in question_files if f.suffix.lower() == '.xlsx')
+        csv_count = sum(1 for f in question_files if f.suffix.lower() == '.csv')
+        print(f"Found {len(question_files)} files ({xlsx_count} XLSX, {csv_count} CSV)\n")
 
         # Process each file
         all_data = []
 
-        for idx, file_path in enumerate(xlsx_files, 1):
-            print(f"[{idx}/{len(xlsx_files)}] Processing {file_path.name}...", end=' ')
+        for idx, file_path in enumerate(question_files, 1):
+            print(f"[{idx}/{len(question_files)}] Processing {file_path.name}...", end=' ')
 
-            df, file_stats = self.read_xlsx_file(file_path)
+            df, file_stats = self.read_question_file(file_path)
 
             if not file_stats['read_success']:
                 print(f"❌ Error: {file_stats['read_error']}")
@@ -333,28 +346,30 @@ class QuestionMerger:
             f.write("=" * 80 + "\n")
             f.write("2. SOURCE FILE DETAILS (MATRIX)\n")
             f.write("=" * 80 + "\n")
-            f.write(f"{'File Name':<40} {'Rows':<8} {'Valid':<8} {'Invalid':<8} {'Warnings':<10} {'Categories':<30}\n")
+            f.write(f"{'File Name':<35} {'Type':<6} {'Rows':<6} {'Valid':<6} {'Invalid':<6} {'Warn':<6} {'Categories':<20}\n")
             f.write("-" * 80 + "\n")
 
             for file_stats in self.stats['source_files']:
                 if file_stats['read_success']:
-                    categories_str = ', '.join(map(str, file_stats['categories'][:3]))
-                    if len(file_stats['categories']) > 3:
-                        categories_str += f"... (+{len(file_stats['categories'])-3} more)"
+                    categories_str = ', '.join(map(str, file_stats['categories'][:2]))
+                    if len(file_stats['categories']) > 2:
+                        categories_str += f"... (+{len(file_stats['categories'])-2})"
 
                     f.write(
-                        f"{file_stats['file_name']:<40} "
-                        f"{file_stats['total_rows']:<8} "
-                        f"{file_stats['valid_rows']:<8} "
-                        f"{file_stats['invalid_rows']:<8} "
-                        f"{file_stats['warnings']:<10} "
-                        f"{categories_str:<30}\n"
+                        f"{file_stats['file_name']:<35} "
+                        f"{file_stats['file_type']:<6} "
+                        f"{file_stats['total_rows']:<6} "
+                        f"{file_stats['valid_rows']:<6} "
+                        f"{file_stats['invalid_rows']:<6} "
+                        f"{file_stats['warnings']:<6} "
+                        f"{categories_str:<20}\n"
                     )
                 else:
                     f.write(
-                        f"{file_stats['file_name']:<40} "
-                        f"{'ERROR':<8} {'N/A':<8} {'N/A':<8} {'N/A':<10} "
-                        f"{file_stats['read_error']:<30}\n"
+                        f"{file_stats['file_name']:<35} "
+                        f"{file_stats['file_type']:<6} "
+                        f"{'ERR':<6} {'N/A':<6} {'N/A':<6} {'N/A':<6} "
+                        f"{file_stats['read_error'][:20]:<20}\n"
                     )
 
             f.write("\n")
@@ -456,11 +471,11 @@ class QuestionMerger:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Merge multiple XLSX question files into a single validated CSV",
+        description="Merge multiple XLSX/CSV question files into a single validated CSV",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Merge all XLSX files from 'questions' folder
+  # Merge all XLSX and CSV files from 'questions' folder
   python merge_question_files.py --input questions --output merged.csv
 
   # Specify custom log file
@@ -468,13 +483,16 @@ Examples:
 
   # Dry run (validation only, no output)
   python merge_question_files.py --input questions --dry-run
+
+  # Mix XLSX and CSV files
+  python merge_question_files.py --input mixed_files --output combined.csv
         """
     )
 
     parser.add_argument(
         '--input', '-i',
         required=True,
-        help='Input folder containing XLSX files'
+        help='Input folder containing XLSX and/or CSV files'
     )
 
     parser.add_argument(
